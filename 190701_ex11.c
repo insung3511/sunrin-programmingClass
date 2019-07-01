@@ -25,5 +25,6 @@ int main() {
 	printf("a자체의 값 : %d\n", a);
 	printf("a[0]의 주소 : %d\n", &a[0]);
 	printf("a자체의 값이 가지는 주소의 실제 값 : %d\n", *a);
+	printf("a[0]의 주소가 가리키는 실제 값 : %d\n", &a[0]);
 	return 0;
 }
